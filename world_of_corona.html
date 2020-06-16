@@ -26,7 +26,8 @@
                     <div class="missão">
                         <!--introdução inicial -->
                         <p id="intro">Você é um político com interesse na proliferação do Coronavírus!<br>
-                                      Faça à escolha certa, para continuar sendo o pior político da história! </p>
+                                      Faça à escolha certa, para continuar sendo o pior político da história!<br>
+                                      Deseja sair do Planalto pra comer um churrasquinho?   </p>
                     </div>
                     <br>
                     <!--questão para passar de fase -->
@@ -35,15 +36,16 @@
                     <br>
                     <!--escolha do usuario-->
                     <div class="button">
-                        <button id=button-1 onclick="mudarTextoum()">Start</button>
-                        <button id=button-2 onclick="mudarTextodois()">Não clique!</button>
+                        
+                        <!--cria botoês-->
+                        <input type="button" id="button" onclick="mudarTextoUm();" value="Sim" value="Exibir Alert"/>
+                        <input type="button" id="button" onclick="mudarTextoDois();" value="Não" />
                         <input type="button" value="Restart" onClick="window.location.reload()">
                         
                          
                     </div>                            
                         <!-- Chama o Javascript e suas funções-->
                         <script src="world_of_corona.js"></script>
-                        <script src="backVariado.js"></script>
                         
                 </body>
     </html>

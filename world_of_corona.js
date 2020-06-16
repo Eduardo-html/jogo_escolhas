@@ -1,8 +1,12 @@
 //mudar texto com o click//
-function mudarTextoum() {
-    document.getElementById("intro").innerHTML = "Sair ou ficar em reunião com ministros?";
+/*function mudarTextoUm() {
+    document.getElementById("intro").innerHTML = "Você vai deixar de partipar da reunião com ministros?";*/
 }
-function mudarTextodois() {
+function mudarTextoDois() {
     document.getElementById("intro").innerHTML = "Você perdeu,os USA descobriram à cura do CORONA!";
 }
-//mudar nome botão//
+
+function mudarTextoUm()
+{
+alert("Parabéns vocÊ saiu pegou o CORONA e contaminou 90% dos Brasileiros!");
+}

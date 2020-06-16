@@ -1,6 +1,6 @@
 .titulo_game {
-    background:#000000; 
-    color: #FFFFFF;
+    /*background:#000000; 
+    color: #EDFB0B;*/
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -13,8 +13,9 @@
 }
 
 body{
-    background:#000000; 
-    color: #FFFFFF;
+    /*background-image: url("https://cdn.pixabay.com/photo/2020/03/22/16/17/coronavirus-4957673_960_720.jpg");*/
+    background:#000000;
+    color: #e1fa02;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -23,8 +24,8 @@ body{
     text-align: center;
 }
 .missão{
-    background:#000000; 
-    color: #FFFFFF;
+    /*background:#000000; */
+    color: #498a51;
     display: flex;
     align-items: center;
     flex-direction: column;
