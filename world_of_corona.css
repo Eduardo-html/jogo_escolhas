@@ -1,4 +1,4 @@
-header {
+.titulo_game {
     background:#000000; 
     color: #FFFFFF;
     display: flex;
@@ -8,7 +8,7 @@ header {
     height: 100%;
     text-align: center;
     font-weight: bold;
-    font-size: 60px;
+    font-size: 100px;
     margin:0px,0px,0px,0px;
 }
 
@@ -21,11 +21,23 @@ body{
     width: 100%;
     height: 100%;
     text-align: center;
-    font-size: 22px;
+}
+.missão{
+    background:#000000; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
     margin:0px,0px,0px,0px;
+
 }
 .buton{
-    width: 150%;
-    height: 150%;
-    font-size: 50%;;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 30px;
 }

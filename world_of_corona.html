@@ -3,37 +3,47 @@
     <html lang="pt-br">
         <head>
             <meta charset="UTF-8">
-            <!--titulo no navegador-->
+            <!--titulo na aba do navegador-->
             <title> Word of Corona </title>
             <!--chama o css da pag.-->
-            <link rel="stylesheet" href="worldofCorona.css">
-            <!-- Chama o Javascript e suas funções-->
-            <link rel="stylesheet" href="worldofCorona.js">
+            <link rel="stylesheet" href="world_of_Corona.css">
+            <!--coloca icone no titulo da aba do navegador-->
+            <link rel="icon" href="ds.icon" type="image/x-icon">
+            <!--regula margem de toda página externamente auto-->
+            <link rel="stylesheet" href="reset.css">
+
 
         </head>
-                    <!-- cabeça do site-->
-                    <header>
-                        <!--titulo do jogo-->
-                        <h1>World of Corona</h1>
-                    </header>
-                    <!-- corpo do site-->
-                        <body>
-                            
-                            <div>
-                                <!--Estoria inicial -->
-                                <p>Você é um político com interesse na proliferação do Coronavírus! </p>
-                                <p>Faça à escolha certa, para continuar sendo o pior político da história!</p>
-                            </div>
-                            <!--questão para passar de fase -->
-                            <div>
-                            </div>
-                            <!--escolha do usuario-->
-                            <div class="button">
-                                <button>Start!</button>
-                            </div>
-
-                           
-                            
-
-                        </body>
+                <!-- corpo do site-->
+                <body>       
+                        <!-- cabeçalho do site-->
+                        <header class="titulo_game">
+                            <!--titulo do jogo-->
+                            <h1>World of Corona</h1>
+                            <br>
+                        </header>
+                                
+                    <div class="missão">
+                        <!--introdução inicial -->
+                        <p id="intro">Você é um político com interesse na proliferação do Coronavírus!<br>
+                                      Faça à escolha certa, para continuar sendo o pior político da história! </p>
+                    </div>
+                    <br>
+                    <!--questão para passar de fase -->
+                    <div class="questões">
+                    </div>
+                    <br>
+                    <!--escolha do usuario-->
+                    <div class="button">
+                        <button id=button-1 onclick="mudarTextoum()">Start</button>
+                        <button id=button-2 onclick="mudarTextodois()">Não clique!</button>
+                        <input type="button" value="Restart" onClick="window.location.reload()">
+                        
+                         
+                    </div>                            
+                        <!-- Chama o Javascript e suas funções-->
+                        <script src="world_of_corona.js"></script>
+                        <script src="backVariado.js"></script>
+                        
+                </body>
     </html>
