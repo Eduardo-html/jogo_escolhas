@@ -8,5 +8,5 @@ function mudarTextoDois() {
 
 function mudarTextoUm()
 {
-alert("Parabéns você VENCEU saiu pegou o CORONA e contaminou 90% dos Brasileiros!");
+alert("Parabéns você VENCEU, saiu pegou o CORONA e contaminou 90% dos Brasileiros!");
 }
